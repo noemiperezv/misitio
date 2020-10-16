@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <h3>Welcome to <%= name %></h3>
+    <h1><%= list %></h1>
+    <select <% nombres.forEach(function(name){ %> >
+      <option>
+        <%= name %>
+      </option>
+      <% }); %>
+
+      
+      
+    </select>
+  </body>
+</html>
