@@ -1,8 +1,23 @@
 body {
+  background: darkgrey;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+  margin:20px;
+  
 
+}
+h2 :first-letter{ 
+  color:red;
+  
+}
+h1{
+  color: ghostwhite;
+  border-color: hotpink;
+  border: solid, 3px;
+}
+h2{
+  color: black;
+}
 a {
   color: #00B7FF;
 }

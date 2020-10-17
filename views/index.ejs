@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
+    <%- include('partials7head'); %>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <h3>Welcome to <%= name %></h3>
-    <h1><%= list %></h1>
-    <select <% nombres.forEach(function(name){ %> >
-      <option>
-        <%= name %>
-      </option>
-      <% }); %>
+    <%- include('partials/navbar'); %>
+    
+    <div class="jumbotron">
+      <h1 class="display-4">Bienvenido a Node JS & Express</h1>
+      <p class="lead">Este es un ejempo básico</p>
+      <hr class="my-4">
+      <p>Mi primer sitio básico con Express.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
 
-      
-      
-    </select>
+    <%- include('partials/script'); %>
   </body>
 </html>

@@ -4,7 +4,7 @@ var nombres = ['Andrea', 'Brenda','Carlos','Daniela','Eduardo', 'Fernando','Gabr
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Mi primera página', name: 'Noemí Pérez Vega', list: 'Lista de nombres',nombres});
+  res.render('index', { page: 'Home', menuId: 'home'});
 });
 
 /*router.get('/', function(req, res, next){
