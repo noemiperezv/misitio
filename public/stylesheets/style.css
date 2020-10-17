@@ -3,6 +3,7 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   margin:20px;
+  background: url("../images/bg.jpg");
   
 
 }
@@ -24,12 +25,12 @@ a {
 .bg-3 {
   background-color: #ffffff;
   color: #555555;
-  }
-  .container-fluid {
+}
+.container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
-  }
-  .navbar {
+}
+.navbar {
   padding-top: 15px;
   padding-bottom: 15px;
   border: 0;
@@ -37,11 +38,38 @@ a {
   margin-bottom: 0;
   font-size: 12px;
   letter-spacing: 5px;
-  }
-  .navbar-nav li a:hover {
+}
+.navbar-nav li a:hover {
     color: #1abc9c !important;
-    }
-    .active>a {
+}
+.active>a {
     color: #1abc9c !important;
     ;
-    }
+}
+.yo{
+  border: coral dotted 3px;
+  border-radius: 10px;
+  padding: 20px;
+  background: white;
+  margin-bottom: 50px;
+}
+footer{
+  padding-top: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+.foto1{
+  width: 300px;
+  border: khaki 4px solid;
+  align-self:center;
+}
+p{
+  font: oblique bold 120% cursive;
+  font-size: 22px;
+}

@@ -6,7 +6,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { page: 'Home', menuId:'home'});
 });
-
+router.get('/acercade', function(req, res, next) {
+  res.render('acercade', { page: 'Home', menuId:'home'});
+});
 /*router.get('/', function(req, res, next){
   res.render('index', {title:'Lista de nombres', nombres: nombres});
 });
